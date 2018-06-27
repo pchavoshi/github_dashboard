@@ -4,10 +4,11 @@ import Dashboard from './dashboard'
 
 const App = () => {
 
-return
+return <div>
+  
+   <Route path="/:organization" component={Dashboard}/>
 
-    <Route path="/:organization" component={Dashboard}/>
-
+</div>
 };
 
 export default App;

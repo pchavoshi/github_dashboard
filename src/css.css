@@ -1,0 +1,12 @@
+.header {
+  text-align: center
+}
+
+.container {
+  text-align: center;
+}
+
+.repositories {
+  display: flex;
+  justify-content: center;
+}
